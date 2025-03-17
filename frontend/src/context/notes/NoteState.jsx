@@ -3,7 +3,7 @@ import NoteContext from "./noteContext";
 
 const NoteState = (props) => {
   
-  const host = "http://localhost:8080";
+  const host = "https://full-stack-project-using-mern.onrender.com/";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
