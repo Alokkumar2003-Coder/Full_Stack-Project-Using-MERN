@@ -17,6 +17,7 @@
     "express-validator": "^7.2.0",
     "inotebook-backend": "file:",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.7",
     "mongoose": "^8.12.1"
   },
   "devDependencies": {
