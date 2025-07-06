@@ -34,8 +34,8 @@ const Login = (props) => {
   };
 
   return (
-    <div className="mt-8 max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
-      <h2 className="text-2xl font-semibold text-center mb-6 text-gray-700">Login to continue to iNotebook</h2>
+    <div className="mt-8 max-w-md mx-auto p-6 bg-indigo-400 shadow-lg rounded-lg">
+      <h2 className="text-2xl font-semibold text-center mb-6 text-gray-700">Login to iNotebook</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-700">

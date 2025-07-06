@@ -38,9 +38,9 @@ const Signup = (props) => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
-      <h2 className="text-2xl font-bold mb-6 text-gray-800">
-        Create an account to use iNotebook
+    <div className="max-w-md mx-auto mt-10  p-6 bg-indigo-400 shadow-md rounded-lg">
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center ">
+        Create an account 
       </h2>
       <form onSubmit={handleSubmit} className="space-y-5">
         <div>
