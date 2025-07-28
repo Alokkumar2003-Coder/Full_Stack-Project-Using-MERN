@@ -43,7 +43,7 @@ const Login = (props) => {
           </label>
           <input
             type="email"
-            className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-2 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={credentials.email}
             onChange={onChange}
             id="email"
@@ -67,7 +67,7 @@ const Login = (props) => {
         </div>
         <button
           type="submit"
-          className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition"
+          className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-900 transition"
         >
           Submit
         </button>
